@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.headding {
+  font-size: 50px;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(32, 29, 29);
+  font-size: 15px;
+}
+h2 {
+  font-size: 40px;
+}
+h2, h3, h4, h5 {
+  font-family: "Poppins", sans-serif;
+ 
+}
+.tColor {
+  color: blue;
+  padding-top: 10px;
+}
+#container {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin: 0 auto;
+  background-color: #f3dae6;
+}
+.sectionAll {
+  display: flex;
+  margin-top: 20px;
+  padding-left: 100px;
+  
+}
+.description1 {
+  width: 90%;
+  margin-top: 80px;
+}
+#leftBorder {
+  border-left: 5px solid rgb(52, 50, 185);
+  padding-left: 10px;
+}
+.imgWidth {
+  width: 50%;
+  padding-left: 200px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.btn {
+  padding: 8px 15px;
+  background-color: rgb(36, 36, 158);
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover{
+ background-image: linear-gradient(45deg, rgb(9, 9, 180), rgb(124, 153, 190));
+}
+
+#sec2Heading {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+}
+.sec2{
+   margin-bottom: 30px;
+   padding-right: 100px;
+}
+.box{
+   width: 30%;
+   padding: 20px;
+   margin: 15px;
+   border-radius: 10px;
+   box-shadow: 5px 10px 15px gray;
+}
+.boxImg{
+   width: 40%;
+}
+.box1{
+   background-color: #EED7CE;
+}
+.box2{
+   background-color: #acd4cc;
+}
+.box3{
+   background-color: #ceeed5;
+}
+.boxPara{
+   font-size: 12px;
+}
+.boxH{
+   margin: 0;
+   font-weight: bolder;
+   padding-left: 0;
+}
+
+#sec3{
+   margin: 100px 0px 100px 0px;
+}
+#sec3imgDiv{
+   width: 40%;
+}
+#sec3img{
+   width: 70%;
+   padding-left: 20px;
+}
+#sec3desc{
+   padding-right: 100px;
+   margin-top: 30px;
+   width: 60%;
+}
+
+#sec4{
+   margin: 100px 0px 100px 0px;
+}
+#sec4desc{
+   width: 60%;
+   padding: 20px 100px 10px 20px;
+}
+#sec4imgDiv{
+   width: 40%;
+}
+#sec4img{
+   margin: 0 auto;
+   width: 70%;
+   padding-right: 80px;
+}
+
+#sec5{
+   /* margin-bottom: 100px; */
+   padding-bottom: 100px;
+}
+#sec5imgDiv{
+   width: 40%;
+}
+#sec5img{
+   height: 300px;
+}
+#sec5desc{
+   width: 80%;
+   display: flex;
+   background-image: linear-gradient(to bottom, #80d5d8 0%, #7c86c4 100%);
+   margin: 0 auto;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 5px 10px 15px gray;
+}
+#sec5text p {
+   padding: 0;
+   margin: 0;
+   color: white;
+   font-size: 20px;
+}
+#sec5text a{
+   text-decoration: none;
+}
+#sec5text{
+   color: rgb(8, 53, 253);
+}
+.hireMe{
+   margin-top: 30px;
+}
+#footer{
+   text-align: center;
+   background-color: black;
+   color: white;
+   padding-bottom: 10px;
+   /*  */
+}
+#footerPara{
+   font-family: 'Playfair Display', serif;
+   font-size: 40px;
+   font-weight: bolder;
+   color: white;
+   margin-bottom: 0;
+   padding-top: 10px;
+}
+#footer small{
+   color: rgb(175, 172, 172);
+}
+
+
