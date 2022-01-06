@@ -14,7 +14,7 @@ p {
   font-size: 15px;
 }
 h2 {
-  font-size: 35px;
+  font-size: 30px;
 }
 h2, h3, h4, h5 {
   font-family: "Poppins", sans-serif;
@@ -36,6 +36,7 @@ h2, h3, h4, h5 {
   padding-left: 100px;
   
 }
+                  /* section 1 start here */
 .description1 {
   width: 90%;
   margin-top: 80px;
@@ -61,11 +62,12 @@ h2, h3, h4, h5 {
 .btn:hover{
  background-image: linear-gradient(45deg, rgb(9, 9, 180), rgb(124, 153, 190));
 }
-
+                  /* section 2 start here */
 #sec2Heading {
   font-weight: bolder;
   text-align: center;
   margin-top: 50px;
+  font-size: 45px;
 }
 .sec2{
    margin-bottom: 30px;
@@ -87,6 +89,8 @@ h2, h3, h4, h5 {
 .box2{
    background-color: #acd4cc;
 }
+                  /* section 3 start here */
+
 .box3{
    background-color: #ceeed5;
 }
@@ -101,22 +105,32 @@ h2, h3, h4, h5 {
 
 #sec3{
    margin: 100px 0px 100px 0px;
+   background-image: url(shapes/shape-6.png);
+   background-repeat: no-repeat;
+   background-size: 170px;
+   background-position: bottom right;
 }
 #sec3imgDiv{
    width: 40%;
+  
 }
 #sec3img{
    width: 70%;
    padding-left: 20px;
 }
 #sec3desc{
-   padding-right: 100px;
+   padding-right: 250px;
    margin-top: 30px;
    width: 60%;
 }
+                  /* section 4 start here */
 
 #sec4{
    margin: 100px 0px 100px 0px;
+   background-image: url(shapes/shape-1.png);
+   background-repeat: no-repeat;
+   background-size: 180px;
+   background-position: bottom left;
 }
 #sec4desc{
    width: 60%;
@@ -130,10 +144,14 @@ h2, h3, h4, h5 {
    width: 70%;
    padding-right: 80px;
 }
+                  /* section 5 start here */
 
 #sec5{
-   /* margin-bottom: 100px; */
    padding-bottom: 100px;
+   background-image: url("shapes/shape-7.png");
+   background-size: 200px;
+   background-repeat: no-repeat;
+   background-position: bottom right;
 }
 #sec5imgDiv{
    width: 40%;
@@ -165,12 +183,14 @@ h2, h3, h4, h5 {
 .hireMe{
    margin-top: 30px;
 }
+                  /* footer start here */
+
 #footer{
    text-align: center;
    background-color: black;
    color: white;
    padding-bottom: 10px;
-   /*  */
+   
 }
 #footerPara{
    font-family: 'Playfair Display', serif;
